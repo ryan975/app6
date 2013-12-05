@@ -18,6 +18,17 @@
 		941E28261848DDD600CD3004 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28251848DDD600CD3004 /* Default-568h@2x.png */; };
 		941E28291848DDD600CD3004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E28281848DDD600CD3004 /* ViewController.m */; };
 		941E282C1848DDD600CD3004 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941E282A1848DDD600CD3004 /* ViewController.xib */; };
+		941E283A1848DE5F00CD3004 /* cobra.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28321848DE5F00CD3004 /* cobra.png */; };
+		941E283B1848DE5F00CD3004 /* jungleframe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941E28331848DE5F00CD3004 /* jungleframe.jpg */; };
+		941E283C1848DE5F00CD3004 /* lion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28341848DE5F00CD3004 /* lion0.png */; };
+		941E283D1848DE5F00CD3004 /* lion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28351848DE5F00CD3004 /* lion1.png */; };
+		941E283E1848DE5F00CD3004 /* lion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28361848DE5F00CD3004 /* lion2.png */; };
+		941E283F1848DE5F00CD3004 /* lion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28371848DE5F00CD3004 /* lion3.png */; };
+		941E28401848DE5F00CD3004 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28381848DE5F00CD3004 /* rabbit.png */; };
+		941E28411848DE5F00CD3004 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E28391848DE5F00CD3004 /* title.png */; };
+		941E2847184DED5A00CD3004 /* MovingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E2846184DED5A00CD3004 /* MovingImageView.m */; };
+		941E284B1850070A00CD3004 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941E284A1850070A00CD3004 /* AVFoundation.framework */; };
+		941E284F18500EE100CD3004 /* LionRoar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 941E284E18500EE100CD3004 /* LionRoar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,18 @@
 		941E28271848DDD600CD3004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		941E28281848DDD600CD3004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		941E282B1848DDD600CD3004 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		941E28321848DE5F00CD3004 /* cobra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cobra.png; sourceTree = "<group>"; };
+		941E28331848DE5F00CD3004 /* jungleframe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungleframe.jpg; sourceTree = "<group>"; };
+		941E28341848DE5F00CD3004 /* lion0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion0.png; sourceTree = "<group>"; };
+		941E28351848DE5F00CD3004 /* lion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion1.png; sourceTree = "<group>"; };
+		941E28361848DE5F00CD3004 /* lion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion2.png; sourceTree = "<group>"; };
+		941E28371848DE5F00CD3004 /* lion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion3.png; sourceTree = "<group>"; };
+		941E28381848DE5F00CD3004 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		941E28391848DE5F00CD3004 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		941E2845184DED5A00CD3004 /* MovingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingImageView.h; sourceTree = "<group>"; };
+		941E2846184DED5A00CD3004 /* MovingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingImageView.m; sourceTree = "<group>"; };
+		941E284A1850070A00CD3004 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		941E284E18500EE100CD3004 /* LionRoar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LionRoar.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 				941E28101848DDD600CD3004 /* UIKit.framework in Frameworks */,
 				941E28121848DDD600CD3004 /* Foundation.framework in Frameworks */,
 				941E28141848DDD600CD3004 /* CoreGraphics.framework in Frameworks */,
+				941E284B1850070A00CD3004 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +97,7 @@
 		941E280E1848DDD600CD3004 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				941E284A1850070A00CD3004 /* AVFoundation.framework */,
 				941E280F1848DDD600CD3004 /* UIKit.framework */,
 				941E28111848DDD600CD3004 /* Foundation.framework */,
 				941E28131848DDD600CD3004 /* CoreGraphics.framework */,
@@ -85,6 +110,8 @@
 			children = (
 				941E281E1848DDD600CD3004 /* AppDelegate.h */,
 				941E281F1848DDD600CD3004 /* AppDelegate.m */,
+				941E2845184DED5A00CD3004 /* MovingImageView.h */,
+				941E2846184DED5A00CD3004 /* MovingImageView.m */,
 				941E28271848DDD600CD3004 /* ViewController.h */,
 				941E28281848DDD600CD3004 /* ViewController.m */,
 				941E282A1848DDD600CD3004 /* ViewController.xib */,
@@ -96,6 +123,15 @@
 		941E28161848DDD600CD3004 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				941E284E18500EE100CD3004 /* LionRoar.mp3 */,
+				941E28321848DE5F00CD3004 /* cobra.png */,
+				941E28331848DE5F00CD3004 /* jungleframe.jpg */,
+				941E28341848DE5F00CD3004 /* lion0.png */,
+				941E28351848DE5F00CD3004 /* lion1.png */,
+				941E28361848DE5F00CD3004 /* lion2.png */,
+				941E28371848DE5F00CD3004 /* lion3.png */,
+				941E28381848DE5F00CD3004 /* rabbit.png */,
+				941E28391848DE5F00CD3004 /* title.png */,
 				941E28171848DDD600CD3004 /* App6-Info.plist */,
 				941E28181848DDD600CD3004 /* InfoPlist.strings */,
 				941E281B1848DDD600CD3004 /* main.m */,
@@ -163,6 +199,15 @@
 				941E28241848DDD600CD3004 /* Default@2x.png in Resources */,
 				941E28261848DDD600CD3004 /* Default-568h@2x.png in Resources */,
 				941E282C1848DDD600CD3004 /* ViewController.xib in Resources */,
+				941E283A1848DE5F00CD3004 /* cobra.png in Resources */,
+				941E283B1848DE5F00CD3004 /* jungleframe.jpg in Resources */,
+				941E283C1848DE5F00CD3004 /* lion0.png in Resources */,
+				941E283D1848DE5F00CD3004 /* lion1.png in Resources */,
+				941E283E1848DE5F00CD3004 /* lion2.png in Resources */,
+				941E283F1848DE5F00CD3004 /* lion3.png in Resources */,
+				941E28401848DE5F00CD3004 /* rabbit.png in Resources */,
+				941E28411848DE5F00CD3004 /* title.png in Resources */,
+				941E284F18500EE100CD3004 /* LionRoar.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +221,7 @@
 				941E281C1848DDD600CD3004 /* main.m in Sources */,
 				941E28201848DDD600CD3004 /* AppDelegate.m in Sources */,
 				941E28291848DDD600CD3004 /* ViewController.m in Sources */,
+				941E2847184DED5A00CD3004 /* MovingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

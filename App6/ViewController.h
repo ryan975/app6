@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MovingImageView.h"
 
 @interface ViewController : UIViewController
+
+
+@property (strong, nonatomic) IBOutlet UILabel* iScoreVal, *iScoreHeader;
+@property (strong, nonatomic) IBOutlet UILabel* pScoreVal, *pScoreHeader;
+
+@property (strong, nonatomic) MovingImageView* cobraImage;
+@property (strong, nonatomic) MovingImageView* lionImage;
+@property (strong, nonatomic) MovingImageView* rabbitImage;
+
+
+- (void) playRound: (MovingImageView*) playerImage;
+
 
 @end
